@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/about/</loc>
+    <loc>https://scropyn.github.io/SaraEmilia/posts/about/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/blog/</loc>
+    <loc>https://scropyn.github.io/SaraEmilia/tags/blog/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://scropyn.github.io/SaraEmilia/posts/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/sara/</loc>
+    <loc>https://scropyn.github.io/SaraEmilia/tags/sara/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://scropyn.github.io/SaraEmilia/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://scropyn.github.io/SaraEmilia/tags/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/images-test/</loc>
+    <loc>https://scropyn.github.io/SaraEmilia/posts/images-test/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/first-blog/</loc>
+    <loc>https://scropyn.github.io/SaraEmilia/posts/first-blog/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/update-blog-script/</loc>
+    <loc>https://scropyn.github.io/SaraEmilia/posts/update-blog-script/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://scropyn.github.io/SaraEmilia/categories/</loc>
   </url>
 </urlset>
