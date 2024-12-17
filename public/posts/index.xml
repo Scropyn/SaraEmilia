@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on SaraEmilia</title>
-    <link>/posts/</link>
+    <link>https://scropyn.github.io/SaraEmilia/posts/</link>
     <description>Recent content in Posts on SaraEmilia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://scropyn.github.io/SaraEmilia/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>/posts/about/</link>
+      <link>https://scropyn.github.io/SaraEmilia/posts/about/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/about/</guid>
+      <guid>https://scropyn.github.io/SaraEmilia/posts/about/</guid>
       <description>&lt;h1 id=&#34;welkom&#34;&gt;Welkom&lt;/h1&gt;
 &lt;p&gt;Wat leuk dat je op mijn blog bent! Mijn naam is Sara en ik ben sinds kort deze blog begonnen. Hierin zal ik verschillende dingen in vermelden, zoals mijn hobbies, persoonlijke projecten en meer.&lt;/p&gt;
 &lt;p&gt;Mijn blog is specifiek gemaakt om mijn gedachten en evenementen die ik meemaak in te verwerken. Zo kunnen mensen die interesse hebben lezen wat er in mijn kleine, maar o zo fijne leven omgaat. Het lijkt mij vooral leuk om dit later ook terug te lezen.&lt;/p&gt;</description>
@@ -26,25 +26,25 @@
     
     <item>
       <title>MIAUW 2.0</title>
-      <link>/posts/images-test/</link>
+      <link>https://scropyn.github.io/SaraEmilia/posts/images-test/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/images-test/</guid>
+      <guid>https://scropyn.github.io/SaraEmilia/posts/images-test/</guid>
       <description>&lt;h2 id=&#34;welkom&#34;&gt;Welkom&lt;/h2&gt;
 &lt;p&gt;hihi
-!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Pasted%20image%2020241129055807.png&#34;&gt;&lt;/p&gt;</description>
+!&lt;img alt=&#34;Image Description&#34; src=&#34;https://scropyn.github.io/SaraEmilia/images/Pasted%20image%2020241129055807.png&#34;&gt;&lt;/p&gt;</description>
       <content>&lt;h2 id=&#34;welkom&#34;&gt;Welkom&lt;/h2&gt;
 &lt;p&gt;hihi
-!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Pasted%20image%2020241129055807.png&#34;&gt;&lt;/p&gt;
+!&lt;img alt=&#34;Image Description&#34; src=&#34;https://scropyn.github.io/SaraEmilia/images/Pasted%20image%2020241129055807.png&#34;&gt;&lt;/p&gt;
 </content>
     </item>
     
     <item>
       <title>My first blog</title>
-      <link>/posts/first-blog/</link>
+      <link>https://scropyn.github.io/SaraEmilia/posts/first-blog/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/first-blog/</guid>
+      <guid>https://scropyn.github.io/SaraEmilia/posts/first-blog/</guid>
       <description>&lt;p&gt;Hallo dit werkt eindelijk! Ik ben zo blij!&lt;/p&gt;
 &lt;h1 id=&#34;update-1339&#34;&gt;update 13:39&lt;/h1&gt;
 &lt;p&gt;Ik wil naar huis&lt;/p&gt;
@@ -60,10 +60,10 @@
     
     <item>
       <title></title>
-      <link>/posts/update-blog-script/</link>
+      <link>https://scropyn.github.io/SaraEmilia/posts/update-blog-script/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/posts/update-blog-script/</guid>
+      <guid>https://scropyn.github.io/SaraEmilia/posts/update-blog-script/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# PowerShell Script for Windows
 
   
