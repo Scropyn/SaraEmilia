@@ -7,6 +7,7 @@ tags:
 - Sara
 ---
  
+![[Pasted image 20241217122340.png]]
 # Welkom
 Wat leuk dat je op mijn blog bent! Mijn naam is Sara en ik ben sinds kort deze blog begonnen. Hierin zal ik verschillende dingen in vermelden, zoals mijn hobbies, persoonlijke projecten en meer. 
 
