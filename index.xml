@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SaraEmilia</title>
+    <link>/</link>
+    <description>Recent content on SaraEmilia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/posts/about/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/about/</guid>
+      <description>&lt;h1 id=&#34;welkom&#34;&gt;Welkom&lt;/h1&gt;
+&lt;p&gt;Wat leuk dat je op mijn blog bent! Mijn naam is Sara en ik ben sinds kort deze blog begonnen. Hierin zal ik verschillende dingen in vermelden, zoals mijn hobbies, persoonlijke projecten en meer.&lt;/p&gt;
+&lt;p&gt;Mijn blog is specifiek gemaakt om mijn gedachten en evenementen die ik meemaak in te verwerken. Zo kunnen mensen die interesse hebben lezen wat er in mijn kleine, maar o zo fijne leven omgaat. Het lijkt mij vooral leuk om dit later ook terug te lezen.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;welkom&#34;&gt;Welkom&lt;/h1&gt;
+&lt;p&gt;Wat leuk dat je op mijn blog bent! Mijn naam is Sara en ik ben sinds kort deze blog begonnen. Hierin zal ik verschillende dingen in vermelden, zoals mijn hobbies, persoonlijke projecten en meer.&lt;/p&gt;
+&lt;p&gt;Mijn blog is specifiek gemaakt om mijn gedachten en evenementen die ik meemaak in te verwerken. Zo kunnen mensen die interesse hebben lezen wat er in mijn kleine, maar o zo fijne leven omgaat. Het lijkt mij vooral leuk om dit later ook terug te lezen.&lt;/p&gt;
+&lt;h1 id=&#34;korte-bio&#34;&gt;Korte Bio&lt;/h1&gt;
+&lt;p&gt;Mijn naam is Sara Sotomayor Amador en ik ben een tweede jaars student Technische Informatica. Mijn hobbies zijn bakken, karate, lezen en op kleine avontuurtjes gaan. Mijn blog is mijn manier om mijn leven te documenteren voor mijn geliefden en voor mijn oudere zelf.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>MIAUW 2.0</title>
+      <link>/posts/images-test/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/images-test/</guid>
+      <description>&lt;h2 id=&#34;welkom&#34;&gt;Welkom&lt;/h2&gt;
+&lt;p&gt;hihi
+!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Pasted%20image%2020241129055807.png&#34;&gt;&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;welkom&#34;&gt;Welkom&lt;/h2&gt;
+&lt;p&gt;hihi
+!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Pasted%20image%2020241129055807.png&#34;&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>My first blog</title>
+      <link>/posts/first-blog/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/first-blog/</guid>
+      <description>&lt;p&gt;Hallo dit werkt eindelijk! Ik ben zo blij!&lt;/p&gt;
+&lt;h1 id=&#34;update-1339&#34;&gt;update 13:39&lt;/h1&gt;
+&lt;p&gt;Ik wil naar huis&lt;/p&gt;
+&lt;h1 id=&#34;update-1407&#34;&gt;update 14:07&lt;/h1&gt;
+&lt;p&gt;Pls let&amp;rsquo;s go home dan haal ik de trein van 14:49&lt;/p&gt;</description>
+      <content>&lt;p&gt;Hallo dit werkt eindelijk! Ik ben zo blij!&lt;/p&gt;
+&lt;h1 id=&#34;update-1339&#34;&gt;update 13:39&lt;/h1&gt;
+&lt;p&gt;Ik wil naar huis&lt;/p&gt;
+&lt;h1 id=&#34;update-1407&#34;&gt;update 14:07&lt;/h1&gt;
+&lt;p&gt;Pls let&amp;rsquo;s go home dan haal ik de trein van 14:49&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/update-blog-script/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/update-blog-script/</guid>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# PowerShell Script for Windows
+
+  
+
+# Set variables for Obsidian to Hugo copy
+
+$sourcePath = &amp;#34;C:\Users\Emili\OneDrive\Documenten\Obsidian Life Planner OS\Posts&amp;#34;
+
+$destinationPath = &amp;#34;C:\Users\Emili\Documents\sara\content\posts&amp;#34;
+
+  
+
+# Set Github repo
+
+$myrepo = &amp;#34;git@github.com:Scropyn/sarablog.git&amp;#34;
+
+  
+
+# Set error handling
+
+$ErrorActionPreference = &amp;#34;Stop&amp;#34;
+
+Set-StrictMode -Version Latest
+
+  
+
+# Change to the script&amp;#39;s directory
+
+$ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
+
+Set-Location $ScriptDir
+
+  
+
+# Check for required commands
+
+$requiredCommands = @(&amp;#39;git&amp;#39;, &amp;#39;hugo&amp;#39;)
+
+  
+
+# Check for Python command (python or python3)
+
+if (Get-Command &amp;#39;python&amp;#39; -ErrorAction SilentlyContinue) {
+
+    $pythonCommand = &amp;#39;python&amp;#39;
+
+} elseif (Get-Command &amp;#39;python3&amp;#39; -ErrorAction SilentlyContinue) {
+
+    $pythonCommand = &amp;#39;python3&amp;#39;
+
+} else {
+
+    Write-Error &amp;#34;Python is not installed or not in PATH.&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+foreach ($cmd in $requiredCommands) {
+
+    if (-not (Get-Command $cmd -ErrorAction SilentlyContinue)) {
+
+        Write-Error &amp;#34;$cmd is not installed or not in PATH.&amp;#34;
+
+        exit 1
+
+    }
+
+}
+
+  
+
+# Step 1: Check if Git is initialized, and initialize if necessary
+
+if (-not (Test-Path &amp;#34;.git&amp;#34;)) {
+
+    Write-Host &amp;#34;Initializing Git repository...&amp;#34;
+
+    git init
+
+    git remote add origin $myrepo
+
+} else {
+
+    Write-Host &amp;#34;Git repository already initialized.&amp;#34;
+
+    $remotes = git remote
+
+    if (-not ($remotes -contains &amp;#39;origin&amp;#39;)) {
+
+        Write-Host &amp;#34;Adding remote origin...&amp;#34;
+
+        git remote add origin $myrepo
+
+    }
+
+}
+
+  
+
+# Step 2: Sync posts from Obsidian to Hugo content folder using Robocopy
+
+Write-Host &amp;#34;Syncing posts from Obsidian...&amp;#34;
+
+  
+
+if (-not (Test-Path $sourcePath)) {
+
+    Write-Error &amp;#34;Source path does not exist: $sourcePath&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+if (-not (Test-Path $destinationPath)) {
+
+    Write-Error &amp;#34;Destination path does not exist: $destinationPath&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+# Use Robocopy to mirror the directories
+
+$robocopyOptions = @(&amp;#39;/MIR&amp;#39;, &amp;#39;/Z&amp;#39;, &amp;#39;/W:5&amp;#39;, &amp;#39;/R:3&amp;#39;)
+
+$robocopyResult = robocopy $sourcePath $destinationPath @robocopyOptions
+
+  
+
+if ($LASTEXITCODE -ge 8) {
+
+    Write-Error &amp;#34;Robocopy failed with exit code $LASTEXITCODE&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+# Step 3: Process Markdown files with Python script to handle image links
+
+Write-Host &amp;#34;Processing image links in Markdown files...&amp;#34;
+
+if (-not (Test-Path &amp;#34;images.py&amp;#34;)) {
+
+    Write-Error &amp;#34;Python script images.py not found.&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+# Execute the Python script
+
+try {
+
+    &amp;amp; $pythonCommand images.py
+
+} catch {
+
+    Write-Error &amp;#34;Failed to process image links.&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+# Step 4: Build the Hugo site
+
+Write-Host &amp;#34;Building the Hugo site...&amp;#34;
+
+try {
+
+    hugo
+
+} catch {
+
+    Write-Error &amp;#34;Hugo build failed.&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+# Step 5: Add changes to Git
+
+Write-Host &amp;#34;Staging changes for Git...&amp;#34;
+
+$hasChanges = (git status --porcelain) -ne &amp;#34;&amp;#34;
+
+if (-not $hasChanges) {
+
+    Write-Host &amp;#34;No changes to stage.&amp;#34;
+
+} else {
+
+    git add .
+
+}
+
+  
+
+# Step 6: Commit changes with a dynamic message
+
+$commitMessage = &amp;#34;New Blog Post on $(Get-Date -Format &amp;#39;yyyy-MM-dd HH:mm:ss&amp;#39;)&amp;#34;
+
+$hasStagedChanges = (git diff --cached --name-only) -ne &amp;#34;&amp;#34;
+
+if (-not $hasStagedChanges) {
+
+    Write-Host &amp;#34;No changes to commit.&amp;#34;
+
+} else {
+
+    Write-Host &amp;#34;Committing changes...&amp;#34;
+
+    git commit -m &amp;#34;$commitMessage&amp;#34;
+
+}
+
+  
+
+# Step 7: Push the public folder to the gh-pages branch using subtree split and force push
+
+Write-Host &amp;#34;Deploying to GitHub gh-pages...&amp;#34;
+
+  
+
+# Check if the temporary branch exists and delete it
+
+$branchExists = git branch --list &amp;#34;gh-pages-deploy&amp;#34;
+
+if ($branchExists) {
+
+    git branch -D gh-pages-deploy
+
+}
+
+  
+
+# Perform subtree split
+
+try {
+
+    git subtree split --prefix public -b gh-pages-deploy
+
+} catch {
+
+    Write-Error &amp;#34;Subtree split failed.&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+# Push to gh-pages branch with force
+
+try {
+
+    git push origin gh-pages-deploy:gh-pages --force
+
+} catch {
+
+    Write-Error &amp;#34;Failed to push to gh-pages branch.&amp;#34;
+
+    git branch -D gh-pages-deploy
+
+    exit 1
+
+}
+
+  
+
+# Delete the temporary branch
+
+git branch -D gh-pages-deploy
+
+  
+
+Write-Host &amp;#34;All done! Site synced, processed, committed, built, and deployed to gh-pages.&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;</description>
+      <content>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# PowerShell Script for Windows
+
+  
+
+# Set variables for Obsidian to Hugo copy
+
+$sourcePath = &amp;#34;C:\Users\Emili\OneDrive\Documenten\Obsidian Life Planner OS\Posts&amp;#34;
+
+$destinationPath = &amp;#34;C:\Users\Emili\Documents\sara\content\posts&amp;#34;
+
+  
+
+# Set Github repo
+
+$myrepo = &amp;#34;git@github.com:Scropyn/sarablog.git&amp;#34;
+
+  
+
+# Set error handling
+
+$ErrorActionPreference = &amp;#34;Stop&amp;#34;
+
+Set-StrictMode -Version Latest
+
+  
+
+# Change to the script&amp;#39;s directory
+
+$ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
+
+Set-Location $ScriptDir
+
+  
+
+# Check for required commands
+
+$requiredCommands = @(&amp;#39;git&amp;#39;, &amp;#39;hugo&amp;#39;)
+
+  
+
+# Check for Python command (python or python3)
+
+if (Get-Command &amp;#39;python&amp;#39; -ErrorAction SilentlyContinue) {
+
+    $pythonCommand = &amp;#39;python&amp;#39;
+
+} elseif (Get-Command &amp;#39;python3&amp;#39; -ErrorAction SilentlyContinue) {
+
+    $pythonCommand = &amp;#39;python3&amp;#39;
+
+} else {
+
+    Write-Error &amp;#34;Python is not installed or not in PATH.&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+foreach ($cmd in $requiredCommands) {
+
+    if (-not (Get-Command $cmd -ErrorAction SilentlyContinue)) {
+
+        Write-Error &amp;#34;$cmd is not installed or not in PATH.&amp;#34;
+
+        exit 1
+
+    }
+
+}
+
+  
+
+# Step 1: Check if Git is initialized, and initialize if necessary
+
+if (-not (Test-Path &amp;#34;.git&amp;#34;)) {
+
+    Write-Host &amp;#34;Initializing Git repository...&amp;#34;
+
+    git init
+
+    git remote add origin $myrepo
+
+} else {
+
+    Write-Host &amp;#34;Git repository already initialized.&amp;#34;
+
+    $remotes = git remote
+
+    if (-not ($remotes -contains &amp;#39;origin&amp;#39;)) {
+
+        Write-Host &amp;#34;Adding remote origin...&amp;#34;
+
+        git remote add origin $myrepo
+
+    }
+
+}
+
+  
+
+# Step 2: Sync posts from Obsidian to Hugo content folder using Robocopy
+
+Write-Host &amp;#34;Syncing posts from Obsidian...&amp;#34;
+
+  
+
+if (-not (Test-Path $sourcePath)) {
+
+    Write-Error &amp;#34;Source path does not exist: $sourcePath&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+if (-not (Test-Path $destinationPath)) {
+
+    Write-Error &amp;#34;Destination path does not exist: $destinationPath&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+# Use Robocopy to mirror the directories
+
+$robocopyOptions = @(&amp;#39;/MIR&amp;#39;, &amp;#39;/Z&amp;#39;, &amp;#39;/W:5&amp;#39;, &amp;#39;/R:3&amp;#39;)
+
+$robocopyResult = robocopy $sourcePath $destinationPath @robocopyOptions
+
+  
+
+if ($LASTEXITCODE -ge 8) {
+
+    Write-Error &amp;#34;Robocopy failed with exit code $LASTEXITCODE&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+# Step 3: Process Markdown files with Python script to handle image links
+
+Write-Host &amp;#34;Processing image links in Markdown files...&amp;#34;
+
+if (-not (Test-Path &amp;#34;images.py&amp;#34;)) {
+
+    Write-Error &amp;#34;Python script images.py not found.&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+# Execute the Python script
+
+try {
+
+    &amp;amp; $pythonCommand images.py
+
+} catch {
+
+    Write-Error &amp;#34;Failed to process image links.&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+# Step 4: Build the Hugo site
+
+Write-Host &amp;#34;Building the Hugo site...&amp;#34;
+
+try {
+
+    hugo
+
+} catch {
+
+    Write-Error &amp;#34;Hugo build failed.&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+# Step 5: Add changes to Git
+
+Write-Host &amp;#34;Staging changes for Git...&amp;#34;
+
+$hasChanges = (git status --porcelain) -ne &amp;#34;&amp;#34;
+
+if (-not $hasChanges) {
+
+    Write-Host &amp;#34;No changes to stage.&amp;#34;
+
+} else {
+
+    git add .
+
+}
+
+  
+
+# Step 6: Commit changes with a dynamic message
+
+$commitMessage = &amp;#34;New Blog Post on $(Get-Date -Format &amp;#39;yyyy-MM-dd HH:mm:ss&amp;#39;)&amp;#34;
+
+$hasStagedChanges = (git diff --cached --name-only) -ne &amp;#34;&amp;#34;
+
+if (-not $hasStagedChanges) {
+
+    Write-Host &amp;#34;No changes to commit.&amp;#34;
+
+} else {
+
+    Write-Host &amp;#34;Committing changes...&amp;#34;
+
+    git commit -m &amp;#34;$commitMessage&amp;#34;
+
+}
+
+  
+
+# Step 7: Push the public folder to the gh-pages branch using subtree split and force push
+
+Write-Host &amp;#34;Deploying to GitHub gh-pages...&amp;#34;
+
+  
+
+# Check if the temporary branch exists and delete it
+
+$branchExists = git branch --list &amp;#34;gh-pages-deploy&amp;#34;
+
+if ($branchExists) {
+
+    git branch -D gh-pages-deploy
+
+}
+
+  
+
+# Perform subtree split
+
+try {
+
+    git subtree split --prefix public -b gh-pages-deploy
+
+} catch {
+
+    Write-Error &amp;#34;Subtree split failed.&amp;#34;
+
+    exit 1
+
+}
+
+  
+
+# Push to gh-pages branch with force
+
+try {
+
+    git push origin gh-pages-deploy:gh-pages --force
+
+} catch {
+
+    Write-Error &amp;#34;Failed to push to gh-pages branch.&amp;#34;
+
+    git branch -D gh-pages-deploy
+
+    exit 1
+
+}
+
+  
+
+# Delete the temporary branch
+
+git branch -D gh-pages-deploy
+
+  
+
+Write-Host &amp;#34;All done! Site synced, processed, committed, built, and deployed to gh-pages.&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    </item>
+    
+  </channel>
+</rss>
