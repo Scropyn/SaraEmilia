@@ -2,7 +2,7 @@
 
 # Set variables for Obsidian to Hugo copy
 
-$sourcePath = "C:\Users\Emili\OneDrive\Documenten\Obsidian Life Planner OS\Posts"
+$sourcePath = "C:\Users\Emili\OneDrive\Documenten\SaraEmilia\posts"
 
 $destinationPath = "C:\Users\Emili\Documents\SaraEmilia\content\posts"
 
