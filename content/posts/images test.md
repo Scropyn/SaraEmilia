@@ -8,7 +8,6 @@ tags:
 ---
 ## Welkom
 werkt het nu?
-![Image Description](/images/Pasted%20image%2020250301083551.png)
 
+!![Image Description](/images/Pasted%20image%2020250301092618.png)
 hihi
-![Image Description](/images/Pasted%20image%2020241129055807.png)
