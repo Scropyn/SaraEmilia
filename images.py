@@ -2,6 +2,9 @@ import os
 import re
 import shutil
 
+# Base URL voor de afbeeldingen
+base_url = "https://scropyn.github.io/SaraEmilia"
+
 # Paths (using raw strings to handle Windows backslashes correctly)
 posts_dir = r"C:\Users\Emili\OneDrive\Documenten\Obsidian Life Planner OS\Posts"
 attachments_dir = r"C:\Users\Emili\OneDrive\Documenten\Obsidian Life Planner OS\Images"
@@ -20,7 +23,8 @@ for filename in os.listdir(posts_dir):
         
         # Step 3: Replace image links and ensure URLs are correctly formatted
         for image in images:
-            markdown_image = f"![Image Description](/images/{image.replace(' ', '%20')})"
+            # Prepare the Markdown-compatible link with the full URL
+            markdown_image = f"![Image Description]({base_url}/images/{image.replace(' ', '%20')})"
             content = re.sub(r'\[\[' + re.escape(image) + r'\]\]', markdown_image, content)
 
             # Step 4: Copy the image to the Hugo static/images directory if it exists
