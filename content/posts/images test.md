@@ -7,7 +7,8 @@ tags:
 - Sara
 ---
 ## Welkom
-!![Image Description](/images/Pasted%20image%2020250301083551.png)
+werkt het nu?
+![Image Description](/images/Pasted%20image%2020250301083551.png)
 
 hihi
-!![Image Description](/images/Pasted%20image%2020241129055807.png)
+![Image Description](/images/Pasted%20image%2020241129055807.png)
