@@ -9,5 +9,5 @@ tags:
 ## Welkom
 werkt het nu?
 
-!![Image Description](/images/Pasted%20image%2020250301092618.png)
+![Image Description](/images/Pasted%20image%2020250301092618.png)
 hihi
