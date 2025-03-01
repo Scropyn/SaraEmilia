@@ -7,6 +7,7 @@ tags:
 - Sara
 ---
 ## Welkom
+![[Pasted image 20250301083551.png]]
 
 hihi
 !![Image Description](/images/Pasted%20image%2020241129055807.png)
