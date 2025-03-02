@@ -3,8 +3,8 @@ import re
 import shutil
 
 # Paths (using raw strings to handle Windows backslashes correctly)
-posts_dir = r"C:\Users\Emili\OneDrive\Documenten\SaraEmilia\posts"
-attachments_dir = r"C:\Users\Emili\OneDrive\Documenten\SaraEmilia\images"
+posts_dir = r"C:\Users\Emili\OneDrive\Documenten\Obsidian Life Planner OS\Posts"
+attachments_dir = r"C:\Users\Emili\OneDrive\Documenten\Obsidian Life Planner OS\Images"
 static_images_dir = r"C:\Users\Emili\Documents\SaraEmilia\static\images"
 
 # Step 1: Process each markdown file in the posts directory
